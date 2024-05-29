@@ -1,0 +1,453 @@
+.main
+{
+    margin: 0px;
+    height:100px;
+    width:1245px;
+}
+        h6
+{  
+    position: absolute;
+    top:650px;
+  
+   font-size: 20px;
+   z-index: -1;
+
+}
+#sidebarmenu
+{
+   
+    height: 150%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    margin-top:60px;
+    font-size: 25px;
+    transform: translateX(-250px);
+    transition:transform 250ms ease-in-out;
+    
+}
+
+
+
+
+
+#opensidebarMenu:checked ~ #sidebarmenu
+{
+    transform: translateX(0px);
+    z-index: 1;
+   
+   
+}
+
+.menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    border-radius: 15px;
+    
+}
+a:hover
+{
+    background-color: black;
+}
+
+
+.menu li a
+{ 
+    display: block;
+    text-decoration: none;
+    /*text-transform:lowercase;*/
+    padding: 15px;
+    color: white;
+}
+
+.sidebarIcontoggle
+{
+    width:22px;
+    height:22px;
+    position: absolute;
+    z-index: 20;
+    top: 22px;
+    left: 15px;
+    cursor:pointer;
+}
+
+.spinner{
+   
+    height:3px;
+    margin: 3px;
+    left: 0px;
+    background-color:white;
+    transition: all 0.3s;
+    margin: 3px;
+ 
+}
+.spinner.middle,
+.spinner.bottom
+{
+    position: relative;
+    left: 0px;
+    height:3px;
+    margin: 3px;
+
+}
+#start{
+    height:30px;
+    width:130px;
+    position: relative;
+    top:150px;
+    left:-170px;
+    background-color:red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+     color:white;
+     border-radius: 15px;
+    
+}
+#start:hover{
+    background-color:maroon;
+
+}
+#start1{
+    height:30px;
+    width:130px;
+    position: relative;
+    top:150px;
+    left:-130px;
+    background-color:red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+   
+}
+#start1:hover{
+    background-color:maroon;
+
+}
+#start2{
+    height:30px;
+    width:130px;
+    position: relative;
+    top:125px;
+    left:200px;
+    background-color:red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+}
+#start2:hover{
+    background-color:maroon;
+
+}
+.start3{
+    height:30px;
+    width:130px;
+    position: relative;
+ 
+    left:120px;
+    background-color:red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+}
+
+.start3:hover{
+    background-color:maroon;
+
+}
+p{
+    font-size: 50px;
+    color:yellow;
+    position:relative;
+    left:800px;
+}
+
+          #parent1
+            {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-template-rows: 100px 100px;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;
+               
+               
+            }
+            #child1
+            {
+              grid-column:2/ span 5;
+  
+            } 
+            #child2
+            { 
+                grid-row:2/span 5;
+            
+            }
+            #child3
+            {
+                grid-column:2/span 2;
+                grid-row:2/span 5;    
+               
+            }
+           #child4
+            {
+               grid-row:2/span 5;
+            }
+            #parent2
+            {
+                display: grid;
+                grid-template-columns: auto auto auto ;
+                grid-template-rows: 100px 100px;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;    
+                 z-index: -10;
+    
+
+              
+           }
+          
+            #child5
+            {
+                grid-row:1/ span 9;
+                border: 1px solid; 
+            }
+            #child6
+            {
+                grid-row:1/ span 9;
+                border: 1px solid; 
+            }
+            #child7
+            {
+                grid-row:1/ span 9;
+                border: 1px solid; 
+            }
+            #parent3
+            {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-template-rows: 500px;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;
+           
+       
+        
+          
+               
+            }
+            #child8
+            {
+                grid-column:1/ span 4;
+                border: 1px solid; 
+                background-image: url("boy.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #parent4
+            {
+                display: grid;
+                grid-template-columns: auto auto auto ;
+                grid-template-rows: 300px;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;
+                z-index: -1;
+       
+             
+            }
+         
+            #child9
+            {
+                grid-row:1/ span 5;
+                border: 1px solid; 
+            }
+            #child10
+            {
+                grid-row:1/ span 5;
+                border: 1px solid; 
+            }
+            #child11
+            {
+                grid-row:1/ span 5;
+                border: 1px solid; 
+            }
+            header{
+                background-color: red;
+                background-image: url("head.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding:50px;
+                text-align:center;
+                font-size:50px;
+                height: 20px;
+                z-index: -1;
+            }
+
+.img
+{
+    height: 200px;
+    width: 300px;
+   
+}
+.i
+{
+    height: 300px;
+    width: 388px;  
+    position:relative;
+    left:10px;
+    top:10px;
+    z-index: -1;
+}
+.im
+{
+    height: 495px;
+    width: 1250px;   
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+   
+}
+#critical{
+    font-size: 50px;;
+    text-align: center;
+   position: relative;
+   left:50px;
+   
+}
+
+#critical1{
+    font-size: 25px;;
+  text-align: center;
+  position: relative;
+  left: 10px;
+}
+
+mark{
+    background-color: skyblue;
+}
+.b{
+    background-color: red;
+    color:wheat;
+}
+#def{
+    background-color:blueviolet;
+    color:white;
+}
+#boytext{
+    font-size: 50px;
+    color:white;
+    position: relative;
+    left:800px;
+    top:50px;
+
+}
+#boytextlink{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 15px;
+    color:white;
+    position: relative;
+    top:100px;
+    left:460px;
+}
+#boytextlink:hover
+{
+    background-color:maroon;
+}
+
+.parent6{
+    display:grid;
+    grid-template-rows:160px;
+    grid-template-columns:auto auto auto auto;
+    grid-column-gap:20px;
+    background-color: cornflowerblue;
+
+    }
+
+    #child12{
+
+        grid-column:1/span 5;
+        border:1px solid;
+        color:white;
+    }
+          
+   
+    #headings{
+        position:absolute;
+        left:700px;
+        font-size: 25px;
+       display: flex;
+          grid-column-gap:30px;
+       text-decoration: none;
+    
+    }    
+    #quote{
+        font-size: 20px;
+        position: relative;
+        top:-30px;
+    }
+    #quote1{
+        font-size: 20px;
+        position: relative;
+        top:-30px;
+    }
+    #head{
+        position: relative;
+        top:-50px;
+    }
+    #head1{
+        font-size: 25px;
+        position: relative;
+        top:-110px;
+        color:white;
+    }
+    .parent7{
+        display:grid;
+        grid-template-rows:300px;
+        grid-template-columns:auto auto auto auto;
+        grid-column-gap:20px;
+        background-color: gray;
+    
+        }
+    
+        #child13{
+    
+            grid-column:1/span 5;
+            
+        }
+    .footer{
+        height:50px;
+        width:50px;
+        position: relative;
+        left:550px;
+        top:150px;
+        
+    }
+    .footerlink1{
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        position: relative;
+        left:330px;
+        
+    }
+    .footerlink2{
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        position: relative;
+        left:500px;
+        
+    }

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        h1
+        {
+font-size: 50px;
+color:rgb(197, 34, 34);
+        }
+          #parent2
+            {
+                display: grid;
+                grid-template-columns: auto auto  ;
+                grid-template-rows: 300px 100px ;
+               
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;    
+                 z-index: -10;
+    
+
+              
+           }
+          body
+          {
+            background-color:rgb(120, 183, 221);
+          }
+            #child5
+            {
+             
+             
+                grid-column:1/ span 4 ;
+                grid-row:1/ span 8 ;
+
+                border: 1px solid; 
+                background-color:rgba(242, 244, 248, 0.932)
+            }
+
+            .child6
+            {
+                grid-row:1/ span 3;
+                position: relative;
+                top: 100px;
+          
+            }
+            .img
+{
+    height: 300px;
+    width: 350px;
+}
+label
+            {
+                font-size: 22px;
+                position: absolute;
+                left: 10px;
+            }
+            input
+            {
+                
+                position: absolute;
+                left: 200px;
+            }
+            select
+            {
+                
+                position: absolute;
+                left: 200px;
+            }
+            
+            #cancle
+{
+    position: absolute;
+    left: 200px;
+    background-color:lightskyblue;
+    width: 10%;
+}
+#Confirm
+{
+    position: absolute;
+    left: 40px;
+    background-color:lightskyblue;
+    width: 10%;
+}
+    </style>
+</head>
+<body>
+    <h1><center>Donar Registration</center></h1>
+    <section id="parent2">
+
+        <div id="child5">
+            <form action="data.php" method="GET">
+        
+         
+                <br>
+               
+                   <label for="name">Full Name :</label>
+                   <input type="text"Name="FullName"id="name"><br><br>
+    
+                   <label> Gender :</label>
+              
+                   <select>
+                   
+                    <option>select Gender Type</option>
+                         <option>Male</option>
+                         <option>Female</option>
+                         <option>Other</option>
+                        
+                   </select><br><br><br>
+    
+                   <label>Blood Group :</label>
+              
+                   <select>
+                 
+                    <option>Select Blood Group</option> 
+                    <option>A+</option>
+                    <option>O+</option>
+                    <option>B+</option>
+                    <option>AB+</option>
+    
+                      <option>A-</option>
+                      <option>O-</option>
+                      <option>B-</option>
+                      <option>AB-</option>
+                 
+                    </select><br><br>
+    
+    
+    
+                   <label for="City">City :</label>
+                   <input type="text"Name="CityName"id="City"><br><br>
+    
+                   <label for="contactno" >Mobile no :</label>
+                   <input type="text"Name="mobileno"id="contactno"><br><br>
+    
+                   <label for="Mail"> E-Mail :</label>
+                   <input type="text"Name="E-Mail"id="Mail"><br><br>
+    
+                   <label for="code">Password :</label>
+                   <input type="text"Name="Password"id="code"><br><br>
+    
+                   <label for="Password"> Confirm Password :</label>
+                   <input type="text"Name=" ConfirmPassword"id="Password"><br><br><br>
+    
+    
+                   <label> Last time<br> Blood donated: </label>
+                   
+                   <input type="text"Name=" Blood donated"id=" Last time"><br><br><br>
+    
+                   <label for="properAddress"> Address :</label>
+                   <input type="text"Name="Address"id="properAddress"><br><br>
+    
+    
+                   <br><br>
+                   <input type="submit"value="Confirm"id="Confirm">
+                   <input type="reset"value="cancle"id="cancle">   
+            
+    
+             </form>
+        </div>
+        <div class="child6"><img src="save.jfif"class="img">
+         
+        </div>
+        <div class="child6"><img src="reg.jfif"class="img">
+            
+        
+        </div>
+            
+    </section>
+</body>
+</html>

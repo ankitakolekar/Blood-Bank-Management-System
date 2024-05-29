@@ -1,0 +1,23 @@
+
+.centeralign1{
+    text-align: center;
+    background-color: brown;
+    color: white;}
+    
+.centeralign2{
+    background-color: rgb(201, 166, 166);
+    color: white;
+   
+}
+.centeralign3{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+.centeralign4{
+    background-color: cornsilk;
+}
+#image{
+    height:250px;
+    width:1330px;
+}

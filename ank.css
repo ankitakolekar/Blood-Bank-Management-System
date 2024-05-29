@@ -1,0 +1,210 @@
+.main
+{
+    margin: 0px;
+    height:100px;
+    width:1245px;
+}
+        h6
+{  
+    position: absolute;
+    top:650px;
+
+   font-size: 20px;
+}
+#start{
+    height:30px;
+    width:130px;
+    position: relative;
+   top:140px ;
+    background-color:red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+     color:white;
+     border-radius: 15px;
+}
+#start1{
+    height:30px;
+    width:130px;
+    position: relative;
+    top:140px ;
+    background-color:red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+   
+}
+#start2{
+    height:30px;
+    width:130px;
+    position: relative;
+    top:125px;
+    left:200px;
+    background-color:red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+}
+.start3{
+    height:30px;
+    width:130px;
+    position: relative;
+    
+    left:200px;
+    background-color:red;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+}
+p{
+    font-size: 50px;
+    color:yellow;
+    position:relative;
+    left:800px;
+}
+
+          #parent1
+            {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-template-rows: 100px 100px;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;
+               
+               
+            }
+            #child1
+            {
+              grid-column:2/ span 5;
+  
+            } 
+            #child2
+            { 
+                grid-row:2/span 5;
+            
+            }
+            #child3
+            {
+                grid-column:2/span 2;
+                grid-row:2/span 5;    
+               
+            }
+           #child4
+            {
+               grid-row:2/span 5;
+            }
+            #parent2
+            {
+                display: grid;
+                grid-template-columns: auto auto auto ;
+                grid-template-rows: 100px 100px;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;    
+           }
+          
+            #child5
+            {
+                grid-row:1/ span 9;
+                border: 1px solid; 
+            }
+            #child6
+            {
+                grid-row:1/ span 9;
+                border: 1px solid; 
+            }
+            #child7
+            {
+                grid-row:1/ span 9;
+                border: 1px solid; 
+            }
+            #parent3
+            {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-template-rows: 500px;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;
+           
+       
+        
+          
+               
+            }
+            #child8
+            {
+                grid-column:1/ span 4;
+                border: 1px solid; 
+            }
+
+            #parent4
+            {
+                display: grid;
+                grid-template-columns: auto auto auto ;
+                grid-template-rows: 300px;
+                grid-column-gap: 10px;
+                grid-row-gap: 20px;
+             
+            }
+         
+            #child9
+            {
+                grid-row:1/ span 5;
+                border: 1px solid; 
+            }
+            #child10
+            {
+                grid-row:1/ span 5;
+                border: 1px solid; 
+            }
+            #child11
+            {
+                grid-row:1/ span 5;
+                border: 1px solid; 
+            }
+
+.img
+{
+    height: 200px;
+    width: 300px;
+}
+.i
+{
+    height: 300px;
+    width: 350px;  
+    position:relative;
+    left:10px;
+    top:10px;
+}
+.im
+{
+    height: 495px;
+    width: 1250px;   
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+   
+}
+#critical{
+    font-size: 50px;;
+    text-align: center;
+   position: relative;
+   left:50px;
+   
+}
+
+#critical1{
+    font-size: 25px;;
+  text-align: center;
+  position: relative;
+  left: 10px;
+}
+
+    

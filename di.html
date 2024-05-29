@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+
+<head>
+
+    <title>Card Detail</title>
+    <style>
+        h2 {
+            text-align: center;
+            background-color: brown;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h2> File Upload for Credit Card Details</h2><br><br>
+    <center>
+<input type="file" id="myFile">
+<br><br>
+<b>(Foramt Eg:</b>Reference Id|Agency Name)
+<br>
+<button onclick="myFunction()">Upload</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myFile");
+  x.disabled = true;
+}
+</script>
+</center>
+
+</body>
+
+</html>

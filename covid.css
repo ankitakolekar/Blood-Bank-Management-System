@@ -1,0 +1,49 @@
+header{
+    background-image: url("covid.png");
+}
+#line1{
+    text-align: center;
+    background-color: gray;
+    color:white;
+
+}
+#line2{
+    text-align: center;
+    background-color: gray;
+    color:white;
+
+}
+#line3{
+    text-align: center;
+    background-color: gray;
+    color:white;
+}
+#line4{
+    text-align: center;
+    background-color: gray;
+    color:white;
+}
+#detail1{
+    background-color: ghostwhite;
+}
+#detail2{
+    background-color: ghostwhite;
+}
+#detail3{
+    background-color: ghostwhite;
+}
+#detail4{
+    background-color: ghostwhite;
+}
+#detail5{
+    background-color: ghostwhite;
+}
+#premeasure{
+    background-image: url("covid2.jpg");
+    background-repeat:repeat;
+    height:150px;
+    width:500px;
+    position: relative;
+    left:400px;
+    
+}
